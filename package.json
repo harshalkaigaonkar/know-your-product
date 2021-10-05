@@ -1,0 +1,12 @@
+{
+  "name": "know-your-product",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/harshalkaigaonkar/know-your-product.git",
+  "author": "harshalkaigaonkar <harshalkaigaonkar31@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/language": "^4.3.1",
+    "puppeteer": "^10.4.0"
+  }
+}
