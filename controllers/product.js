@@ -1,9 +1,14 @@
+const { amazonScrape } = require('../scrapper/index')
 
-
-module.exports.getProducts = (req, res) => {
+module.exports.getProducts = async (req, res) => {
     // scrape from flipkart and amazon based on key
-    const key = req.params.key;
+    const key = req.body.key;
 
-    const data = await scrap(key)
+    // amazonscrape returns an array of data
+    const data = await amazonScrape(key);
+
+    // if required, can store data in a DB
+
+    res.send('hello');
 
 }
