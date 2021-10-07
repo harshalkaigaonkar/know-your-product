@@ -9,6 +9,8 @@ module.exports.getProducts = async (req, res) => {
 
     // if required, can store data in a DB
 
+    
+
     res.send('hello');
 
 }
