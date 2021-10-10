@@ -5,6 +5,9 @@ const app = express();
 app.use(cors());
 app.use(express.json({ extended: true }));
 
+app.get('/oauth2callback', (req, res) => {
+    res.send('Check Console👇👇');
+})
 app.use('/api', require('./routes/api/product'));
 
 const PORT = process.env.PORT || 3001;
