@@ -1,3 +1,7 @@
+![GitHub](https://img.shields.io/github/license/harshalkaigaonkar/know-your-product?logo=Github)
+![Github](https://img.shields.io/badge/Language-JavaScript-yellow?logo=JavaScript)
+![Github](https://img.shields.io/badge/Language-HTML-red?logo=HTML)
+![Github](https://img.shields.io/badge/Language-CSS-purple?logo=CSS)
 ## Know-your-product
 
 This is a Web-scrapping Project to analyse some selected products on amazon to scrape content from google News and Youtube Transcripts to analyze and serve result usings bar Charts and Natural Language Cloud Api with Youtube Data API and made with Node.js and Puppeteer.js.
